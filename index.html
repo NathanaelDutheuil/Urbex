@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URBEX</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <input type="checkbox" id="burger-toggle" hidden>
+    <label id="burger" for="burger-toggle"></label>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Accueil</a></li>
+            <li><a href="./expedition.html">Expéditions</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <section class="hero-img">
+            <figure class="img1">
+                <img src="./IMG/chateau.jpg" alt="Château envahi par la végétation" draggable="false">
+            </figure>
+            <figure class="img2">
+                <img src="./IMG/fenetre.jpg" alt="Fenêtre sur paysage" draggable="false">
+            </figure>
+            <figure class="img3">
+                <img src="./IMG/chateau2.jpg" alt="Château sous le soleil" draggable="false">
+            </figure>
+            <figure class="img4">
+                <img src="./IMG/senatorium.jpg" alt="Couloir abandonné" draggable="false">
+            </figure>
+        </section>
+        <section class="titre">
+            <h1>URBEX</h1>
+        </section>
+        <img class="fleche" src="./IMG/Arrow.svg" alt="Flêche" draggable="false">
+    </section>
+
+    <section class="main">
+    <section class="accueil">
+        <h2>ACCUEIL</h2>
+        <input type="checkbox" id="close-alert">
+            <div id="alert-box">
+             <label for="close-alert">&times;</label>
+                <strong>Attention!</strong> L’urbex est une pratique répréhensible par la justice et vous pouvez encourir jusqu’à 2 ans d’emprisonnement et 30 000 euros d’amende. 
+                Les règles officieuses de l’urbex vous demandent de respecter les lieux : pas de dégradations, pas de vol, etc., d’être expérimenté ou d’être accompagné d’une ou plusieurs 
+                personnes expérimentées et de ne pas donner les adresses des lieux à n’importe qui pour empêcher d’éventuelles dégradations ou mises en danger.
+            </div>
+        <section class="presentation">
+            <section class="presentation-texte">
+                <p>
+                    Nous sommes un groupe d’amis qui avons pour même passion : l’urbex.<br><br>
+                    Nous avons donc décidé de faire un site regroupant toutes nos excursions, afin de partager l’histoire et la beauté des lieux que nous avons visité.
+                    <br><br> Nous ne partagerons pas l’emplacement des lieux pour éviter toute dégradation et mise en danger.
+                </p>
+            </section>
+            <section class="presentation-images">
+                <figure class="pres-img1">
+                    <img src="./IMG/garage.jpg" alt="Lieu abandonné 1" draggable="false">
+                </figure>
+                <figure class="pres-img2">
+                    <img src="./IMG/cuisine.jpg" alt="Lieu abandonné 2" draggable="false">
+                </figure>
+            </section>
+        </section>
+    </section>
+
+    <section class="carrousel">
+        <h2>Nos derniers URBEX</h2>
+    <input type="radio" name="carousel" id="carousel-1" checked>
+    <input type="radio" name="carousel" id="carousel-2">
+    <input type="radio" name="carousel" id="carousel-3">
+
+    <section class="carousel-images">
+        <figure class="carousel-item item-1">
+            <img src="./IMG/chateau.jpg" alt="Carrousel 1">
+        </figure>
+        <figure class="carousel-item item-2">
+            <img src="./IMG/chateau2.jpg" alt="Carrousel 2">
+        </figure>
+        <figure class="carousel-item item-3">
+            <img src="./IMG/baignoire.jpg" alt="Carrousel 3">
+        </figure>
+    </section>
+    
+    <label for="carousel-3" class="carousel-arrow left">&#10094;</label>
+    <label for="carousel-2" class="carousel-arrow left">&#10094;</label>
+    <label for="carousel-1" class="carousel-arrow left">&#10094;</label>
+
+    <label for="carousel-2" class="carousel-arrow right">&#10095;</label>
+    <label for="carousel-3" class="carousel-arrow right">&#10095;</label>
+    <label for="carousel-1" class="carousel-arrow right">&#10095;</label>
+    </section>
+</section>
+<footer>
+        <nav class="foot">
+            <a class="acceuil" href="./index.html">Acceuil</a>
+            <a class="expe" href="./expedition.html">Expédition</a>
+            <a class="contact" href="./contact.html">Contact</a>
+        </nav>
+        <section class="footer-text">
+            <span class="footer-logos gauche">
+                <a href="..." class="logo-ig"><img class="reseau" alt="insta-logo" src="./IMG/Instagram.svg"></a>
+                <a href="..." class="logo-tw"><img class="reseau" alt="twitter-logo" src="./IMG/Twitter.svg"></a>
+            </span>
+            <section class="footer-centre">
+                <p>Mentions légales</p>
+                <p>Copyright 2025</p>
+            </section>
+            <span class="footer-logos droite">
+                <a href="..." class="logo-fb"><img class="reseau" alt="facebook-logo" src="./IMG/Facebook.svg"></a>
+                <a href="..." class="logo-li"><img class="reseau" alt="linkedin-logo" src="./IMG/Linkedin.svg"></a>
+            </span>
+        </section>
+    </footer>
+</body>
+</html>
